@@ -1,4 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+// @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 
 * {
   overflow-x: hidden;
@@ -6,6 +8,27 @@
 }
 
 body {
-  background-color: #ffffff;
+  background-color: #1A1A1A;
 }
 
+// font-family: "DM Sans", sans-serif;
+// font-optical-sizing: auto;
+// font-weight: <weight>;
+// font-style: normal;
+
+.nav-bar{
+
+  .nav-bar-wrapper{
+    display: flex;
+    flex-direction: row;
+  }
+  .aqura-logo{
+    img{
+      width: 50%;
+    }
+  }
+
+  .menu-items{
+    color: white;
+  }
+}

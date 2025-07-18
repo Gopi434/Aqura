@@ -1,10 +1,28 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 * {
   overflow-x: hidden;
   font-family: inter;
 }
 
 body {
-  background-color: #ffffff;
+  background-color: #1A1A1A;
+}
+
+.nav-bar .nav-bar-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.nav-bar .aqura-logo img {
+  width: 50%;
+}
+
+.nav-bar .menu-items {
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */
